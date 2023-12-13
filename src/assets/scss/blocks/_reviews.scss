@@ -1,0 +1,17 @@
+.reviews {
+  &__list {
+    @include list-reset;
+
+    flex-direction: row;
+  }
+
+  .swiper {
+    &-slide {
+      opacity: $opacity;
+
+      &-active {
+        opacity: 1;
+      }
+    }
+  }
+}

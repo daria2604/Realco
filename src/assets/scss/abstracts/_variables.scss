@@ -1,0 +1,155 @@
+/**
+* Colors
+*/
+$daintree: #011c28;
+$athens-grey: #ebebf1;
+$mine-shaft: #3d3d3d;
+$heather: #bbc4d6;
+$slate-gray: #768298;
+$black: #000;
+$bunker: #121920;
+$tiber: #0a2b37;
+$tundora: #4b4b4b;
+$salt-box: #69676d;
+$white: #fff;
+$cararra: #e7e8e3;
+$raw-sienna: #cf6f49;
+$linen: #fae8e1;
+
+
+$color-icon-bg: $linen;
+
+$color-background: $white;
+$color-text: $tiber;
+$color-text-white: $white;
+
+$color-button: $raw-sienna;
+$color-button-hover: $salt-box;
+$color-disabled-button: $athens-grey;
+
+$color-placeholder: $heather;
+
+$color-user-name: $slate-gray;
+
+$color-socials: $tiber;
+$color-socials-hover: $raw-sienna;
+
+$color-span: $slate-gray;
+
+$color-text-tiber: rgba($tiber, .8);
+
+/**
+* Fonts
+*/
+$font-size-base: 16px;
+
+$font-size-mini: 12px;
+$font-size-small: 14px;
+$font-size-normal: 18px;
+$font-size-medium: 20px;
+$font-size-big: 24px;
+$font-size-large: 30px;
+$font-size-huge: 36px;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+
+$line-height-mini: 1.2;
+$line-height-small: 1.27;
+$line-height-medium: 1.3;
+$line-height-big: 1.5;
+$line-height-large: 1.67;
+
+$font-family-custom: "Roboto";
+$font-family-default: "Arial", "Helvetica", sans-serif;
+
+$font-family: $font-family-custom, $font-family-default;
+$font-path: '~@/assets/fonts/';
+
+
+/**
+* Breakpoints
+*/
+$screen-tablet: '(min-width: 768px)';
+$screen-desktop: '(min-width: 1440px)';
+
+
+/**
+* Layout
+*/
+$container-width-desktop: 1280px;
+$container-width-tablet: 728px;
+$container-width-mobile: 335px;
+
+$gap-container: 20px;
+
+
+/**
+* Sizes
+*/
+$window-width-desktop: 1440px;
+$window-width-tablet: 768px;
+
+$input-border: rem(1px) solid $athens-grey;
+$input-focus: rem(1px) solid $slate-gray;
+
+$height-header-mobile: 105px;
+$height-header-desktop: 80px;
+$height-footer-desktop: 102px;
+
+$gap-small: 10px;
+$gap-normal: 20px;
+$gap-medium: 30px;
+$gap-large: 40px;
+$gap-huge: 50px;
+
+$padding: 10px;
+$padding-small: 20px;
+$padding-medium: 30px;
+$footer-padding: 31px;
+
+$margin: 10px;
+
+$icon-size: 24px;
+$icon-size-medium: 40px;
+
+$border: rem(1px) solid $athens-grey;
+$border-light: rem(1px) solid $cararra;
+
+/**
+* Transitions and Animations
+*/
+$opacity: 0.5;
+$transition: all .2s ease;
+
+
+/**
+* Radius
+*/
+$border-radius-default: 5px;
+$border-radius-small: 2px;
+$border-radius-medium: 4px;
+$border-radius-large: 8px;
+
+
+/**
+* Box-shadows
+*/
+$box-shadow-base: 0px 3px 10px 0px rgba(0, 0, 0, 0.05);
+$box-shadow-card: 0px 3px 10px 0px rgba(164, 164, 164, 0.03), 
+                  0px 12px 40px 0px rgba(0, 0, 0, 0.03);
+$box-shadow-big: 0px 0px 10px 0px rgba(164, 164, 164, 0.03), 
+                -3px 0px 40px 0px rgba(0, 0, 0, 0.10);
+$box-shadow-huge: 0px 4px 12px 0px rgba($black, .10);
+$box-shadow-hover: 6px 20px 32px rgba($black, 0.12);
+$box-shadow-small: 0px 2px 4px 0px rgba($black, .08);
+
+/**
+* Z-indexes
+*/
+$z-index-default: 40;
+$z-index-blockquote: 20;
+$z-index-header: 50;
+$z-index-aside-menu: 60;
+$z-index-card-link: 30;

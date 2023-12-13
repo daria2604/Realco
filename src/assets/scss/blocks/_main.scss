@@ -1,0 +1,27 @@
+.main { 
+  &__content {
+    margin-top: rem($gap-medium);
+    margin-bottom: rem($gap-normal);
+
+    @media #{$screen-tablet} {
+      margin-top: rem(51px);
+    }
+
+    @media #{$screen-desktop} {
+      margin-bottom: rem(32px);
+    }
+  }
+
+  &__button {
+    width: fit-content;
+    margin: 0 auto;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:visited {
+      color: $white;
+    }
+  }
+}

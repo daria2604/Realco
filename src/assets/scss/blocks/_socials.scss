@@ -1,0 +1,15 @@
+.socials {
+  &__item {
+    width: inherit;
+    height: inherit;
+  }
+
+  &__list {
+    flex-direction: row;
+      column-gap: rem(23px);
+
+      @media #{$screen-tablet} {
+        width: fit-content;
+      }
+  }
+}

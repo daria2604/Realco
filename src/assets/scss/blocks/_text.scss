@@ -1,0 +1,21 @@
+.text {
+  &--grey {
+    font-size: rem($font-size-small);
+    line-height: $line-height-big;
+
+    color: $slate-gray;
+  }
+
+  &--white {
+    color: $white;
+  }
+
+  &--small {
+    line-height: $line-height-mini;
+    letter-spacing: rem(.14px);
+  }
+
+  &--hidden {
+    display: none;
+  }
+}

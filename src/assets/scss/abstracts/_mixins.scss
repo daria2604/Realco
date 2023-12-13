@@ -1,0 +1,96 @@
+@mixin heading {
+    margin: 0;
+    font-weight: $font-weight-medium;
+}
+
+@mixin card {
+    border-radius: rem(16px);
+    border: $border-light;
+    box-shadow: $box-shadow-small;
+    background-color: $white;
+}
+
+@mixin list-display {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem($gap-small);
+}
+
+@mixin list-reset {
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+}
+
+@mixin heading-small {
+    font-size: rem($font-size-base);
+    line-height: $line-height-big;
+}
+
+@mixin visually-hidden {
+    position: absolute;
+    overflow: hidden;    
+
+    width: rem(1px);
+    height: rem(1px);
+    white-space: nowrap;
+
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+}
+
+@mixin grid-checkbox {
+    display: inline-grid;
+    grid-template-areas: ". .";
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@mixin choice-button-icon {
+    $size: 20px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: rem($size);
+    height: rem($size);
+
+    color: transparent;
+
+    transition: $transition;
+} 
+
+@mixin position-absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@mixin truncate($lines) {
+    display: -webkit-box;
+
+    -webkit-line-clamp: $lines;
+    -webkit-box-orient: vertical;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@mixin card-hover {
+    transform: translateY(-10px);
+
+    box-shadow: $box-shadow-hover;
+    transition: $transition;
+}

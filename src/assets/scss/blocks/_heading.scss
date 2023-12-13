@@ -1,0 +1,33 @@
+.heading {
+  color: $bunker;
+  font-weight: $font-weight-medium;
+
+  &--big {
+    font-size: rem($font-size-medium);
+    line-height: $line-height-mini;
+    letter-spacing: rem(.2px);
+
+    @media #{$screen-tablet} {
+      font-size: rem($font-size-big);
+      letter-spacing: rem(.24px);
+    }
+  }
+
+  &--medium {
+    @include heading-small;
+
+    @media #{$screen-tablet} {
+      font-size: rem($font-size-normal);
+    }
+  }
+
+  &--small {
+    @include heading-small;
+
+    font-weight: $font-weight-medium;
+  }
+
+  &--white {
+    color: $white;
+  }
+}

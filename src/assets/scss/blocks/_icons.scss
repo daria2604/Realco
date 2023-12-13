@@ -1,0 +1,7 @@
+.icons {
+  &__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: rem(15px);
+  }
+}

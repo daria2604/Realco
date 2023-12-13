@@ -1,0 +1,33 @@
+/**
+* Vendors
+*/
+@import "~normalize.css";
+
+/**
+* Abstracts
+*/
+@import "abstracts/functions";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+/**
+* Base
+*/
+@import "base/fonts";
+@import "base/generic";
+
+/*
+* Components
+*/
+@import 'blocks/page';
+@import 'blocks/container';
+@import 'blocks/main';
+@import 'blocks/content';
+
+@import 'blocks/heading';
+@import 'blocks/text';
+@import 'blocks/buttons';
+@import 'blocks/icons';
+@import 'blocks/socials';
+
+
