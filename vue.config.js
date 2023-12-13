@@ -2,7 +2,11 @@ const { defineConfig } = require('@vue/cli-service');
 module.exports = defineConfig({
   transpileDependencies: true,
   publicPath: '/dist',
-
+  pwa: {
+    workboxOptions: {
+      exclude: [/_redirects/]
+    }
+  },
   css: {
     loaderOptions: {
       scss: {
