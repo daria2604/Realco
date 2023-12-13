@@ -71,7 +71,7 @@ export default {
 
       display: block;
 
-      padding-top: percentage($card-heigth / $card-width);
+      padding-top: percentage(calc($card-heigth / $card-width));
 
       content: '';
 
@@ -79,7 +79,7 @@ export default {
         $card-width: 403px;
         $card-heigth: 266px;
 
-        padding-top: percentage($card-heigth / $card-width);
+        padding-top: percentage(calc($card-heigth / $card-width));
       }
     }
 
